@@ -1,0 +1,25 @@
+{
+    "name": "karmapp",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack -d",
+        "start": "concurrently 'npm run server' 'npm run dev'",
+        "dev": "webpack -d --watch",
+        "server": "wsrv ./src -p 9000 -s -l"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "babel-core": "^6.23.1",
+        "babel-loader": "^6.3.2",
+        "babel-preset-es2015": "^6.22.0",
+        "babel-preset-react": "^6.23.0",
+        "concurrently": "^3.3.0",
+        "react": "^15.4.2",
+        "react-dom": "^15.4.2",
+        "webpack": "^2.2.1",
+        "wsrv": "^0.1.6"
+    }
+}
