@@ -22,15 +22,12 @@ Starting the development will concurrently start a server and build your files, 
 npm start
 ```
 It runs automatically and concurrently
-```bash
-npm run server
-```
 
- - spawns a server with `wsrv ./src -p 9000 -s -l`
+ - `npm run server` that spawns a server with `wsrv ./src -p 9000 -s -l`
  - compiles your files and watches for changes with `webpack -d --watch`
 
-For more details check [**wsrv** package details](https://www.npmjs.com/package/wsrv) and [Webpack 2.x page](https://webpack.js.org/concepts/).
+For more details check [**wsrv** package details](https://www.npmjs.com/package/wsrv) and [**webpack** 2.x page](https://webpack.js.org/concepts/).
 
+---
 This seed was inspired by [Setting Up a React.js Environment Using Npm, Babel 6 and Webpack](https://www.codementor.io/tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr) and updated to handle more starting development needs.
 
-**Happy codding!**
