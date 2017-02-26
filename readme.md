@@ -29,5 +29,7 @@ It runs automatically and concurrently
 For more details check [**wsrv** package details](https://www.npmjs.com/package/wsrv) and [**webpack** 2.x page](https://webpack.js.org/concepts/).
 
 ---
-This seed was inspired by [Setting Up a React.js Environment Using Npm, Babel 6 and Webpack](https://www.codementor.io/tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr) and updated to handle more starting development needs.
+Open your favourite browser at **http://localhost:9000** address (due to `-l` flag of `wsrv` command, it will lively reload after any code change :)
 
+---
+This seed was inspired by [Setting Up a React.js Environment Using Npm, Babel 6 and Webpack](https://www.codementor.io/tamizhvendan/beginner-guide-setup-reactjs-environment-npm-babel-6-webpack-du107r9zr) and updated to handle more starting development needs.
