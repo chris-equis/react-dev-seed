@@ -1,4 +1,4 @@
-ES6 & React dev seed
+ES6, React, Scss dev seed
 =
 A quick seed to enable a rapid setup for your application.
 

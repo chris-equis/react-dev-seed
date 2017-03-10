@@ -1,11 +1,12 @@
 const webpack = require('webpack');
 const path = require('path');
 
-const BUILD_DIR = path.resolve(__dirname, 'src/build');
-const APP_DIR = path.resolve(__dirname, 'src/app');
+const BUILD_DIR = path.resolve(__dirname, './build');
+const APP_DIR = path.resolve(__dirname, './src');
 
 const config = {
-    entry: `${APP_DIR}/index.jsx`,
+    devtool: 'source-map',
+    entry: `${APP_DIR}/app.jsx`,
     output: {
         path: BUILD_DIR,
         filename: 'bundle.js'
@@ -15,6 +16,10 @@ const config = {
             test: /\.jsx?/,
             include: APP_DIR,
             loader: 'babel-loader'
+        }, {
+            test: /\.scss$/,
+            use: ['style-loader', 'css-loader', 'sass-loader']
+
         }]
     }
 };
